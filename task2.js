@@ -1,5 +1,5 @@
 function argumentStringObject(str, obj) {
-    return obj.hasOwnProperty(str);
+    return (str in obj);
 }
 let person = {
     name: 'Yana',
